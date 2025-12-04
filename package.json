@@ -1,0 +1,13 @@
+{
+  "name": "notif-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node api/emergency.js",
+    "vercel-build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "firebase-admin": "^13.6.0"
+  }
+}
