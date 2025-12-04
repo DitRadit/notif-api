@@ -1,10 +1,10 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/emergency.js", "use": "@vercel/node" }
+    { "src": "emergency.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "api/emergency.js" }
+    { "src": ".*", "dest": "emergency.js" }
   ],
   "crons": [
     {
